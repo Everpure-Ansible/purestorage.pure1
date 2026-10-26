@@ -1,7 +1,7 @@
 ---
 namespace: purestorage
 name: pure1
-version: "1.6.0"
+version: "1.6.1"
 readme: README.md
 authors:
   - Everpure
@@ -16,4 +16,5 @@ tags:
   - deprecated
 dependencies:
   "everpure.pure1": ">=1.5.0,<2.0.0"
-repository: https://github.com/Everpure-Ansible/Pure1-Collection
+repository: https://github.com/Everpure-Ansible/purestorage.pure1
+issues: https://github.com/Everpure-Ansible/purestorage.pure1/issues
