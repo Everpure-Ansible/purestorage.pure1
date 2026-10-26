@@ -1,0 +1,19 @@
+---
+namespace: purestorage
+name: pure1
+version: "1.6.0"
+readme: README.md
+authors:
+  - Everpure
+description: >-
+  Deprecated namespace shim. This collection has been renamed to everpure.pure1. It contains redirects only and pulls in the new collection as a dependency. Please update playbooks to the everpure.pure1 namespace.
+license:
+  - GPL-3.0-or-later
+tags:
+  - storage
+  - everpure
+  - pure1
+  - deprecated
+dependencies:
+  "everpure.pure1": ">=1.5.0,<2.0.0"
+repository: https://github.com/Everpure-Ansible/Pure1-Collection

@@ -1,0 +1,68 @@
+---
+requires_ansible: ">=2.16.0"
+
+plugin_routing:
+  modules:
+    pure1_alerts:
+      redirect: everpure.pure1.pure1_alerts
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_alerts has moved to everpure.pure1.pure1_alerts. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_array_tags:
+      redirect: everpure.pure1.pure1_array_tags
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_array_tags has moved to everpure.pure1.pure1_array_tags. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_drives:
+      redirect: everpure.pure1.pure1_drives
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_drives has moved to everpure.pure1.pure1_drives. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_info:
+      redirect: everpure.pure1.pure1_info
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_info has moved to everpure.pure1.pure1_info. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_network_interfaces:
+      redirect: everpure.pure1.pure1_network_interfaces
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_network_interfaces has moved to everpure.pure1.pure1_network_interfaces. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_nics:
+      redirect: everpure.pure1.pure1_nics
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_nics has moved to everpure.pure1.pure1_nics. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_pods:
+      redirect: everpure.pure1.pure1_pods
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_pods has moved to everpure.pure1.pure1_pods. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_ports:
+      redirect: everpure.pure1.pure1_ports
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_ports has moved to everpure.pure1.pure1_ports. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
+    pure1_volumes:
+      redirect: everpure.pure1.pure1_volumes
+      deprecation:
+        removal_version: "2.0.0"
+        warning_text: >-
+          purestorage.pure1.pure1_volumes has moved to everpure.pure1.pure1_volumes. Update your playbooks to the
+          everpure.pure1 namespace; this redirect will be removed in 2.0.0.
